@@ -1,0 +1,74 @@
+name: flutter_base_project
+description: A new Flutter project.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+newVersion: 1.0.0 #this must be add in order to get project version on app center when generating apk file name
+newName: BasePro #this must be add in order to get project name on app center when generating apk file name
+
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.5
+  file: ^6.1.4
+  flutter_svg: ^2.0.1
+  shared_preferences: ^2.0.17
+  intl: ^0.18.0
+  image_picker: ^0.8.6+1
+  cached_network_image: ^3.2.3
+  file_picker:
+  url_launcher: ^6.1.9
+  pull_to_refresh: ^2.0.0
+  retrofit: '>=3.0.0 <4.0.0'
+  json_annotation:
+  dio:
+  flutter_native_splash: ^2.2.16
+  package_info_plus:
+  device_info_plus:
+  bloc: ^8.1.1
+  flutter_bloc: ^8.1.2
+  equatable: ^2.0.5
+  hive: ^2.2.3
+  hive_flutter:
+  connectivity_plus:
+  permission_handler:
+  google_fonts:
+  flutter_screenutil: ^5.6.1
+  upgrader: ^7.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.1
+  flutter_launcher_icons: ^0.11.0
+  json_serializable:
+  retrofit_generator: ^4.2.0
+  build_runner:
+  hive_generator:
+  analyzer:
+
+flutter:
+
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/images/1.5x/
+    - assets/images/2.0x/
+    - assets/images/3.0x/
+    - assets/images/4.0x/
+    - assets/icons/
+    - assets/json/
+
+flutter_native_splash:
+  image: assets/images/splash_logo.png
+  background_image: assets/images/background_splash.png
+  fullscreen: true
+  android: true
+  ios: true
+  android_12:
+    image: assets/images/splash_logo.png
+    icon_background_color: "#CC4022"
+

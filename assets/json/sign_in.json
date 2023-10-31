@@ -1,0 +1,18 @@
+{
+  "response": {
+    "status": true,
+    "data": {
+      "auth": {
+        "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9",
+        "firebaseCustomToken": "XAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9",
+        "userName": "Irfan Sarwar",
+        "sellerStatus": "NO_SELLER",
+        "sellerStatusMessage": "your application has been accepted!",
+        "totalEarnings": 32,
+        "email": "muhammadirfan.sarwar@techswivel.com",
+        "avatar": "uploads/categories/9d3acfeb5b40c0d8361f6dcf2ceaa51b.png",
+        "phoneNumber": "+923206313920"
+      }
+    }
+  }
+}
