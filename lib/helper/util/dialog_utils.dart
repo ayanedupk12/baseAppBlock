@@ -1,8 +1,7 @@
+import 'package:avenueBellevue/main.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_base_project/main.dart';
-import 'package:flutter_base_project/presentation/widgets/text_view_widget.dart';
-
 import '../../presentation/widgets/btn_widget.dart';
+import '../../presentation/widgets/text_view_widget.dart';
 import '../constant/colors_resource.dart';
 import '../constant/dimensions_resource.dart';
 import '../constant/strings_resource.dart';

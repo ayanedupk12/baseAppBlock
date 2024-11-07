@@ -1,11 +1,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.techswivel.flutterbaseapp">
+    package="com.techswivel.avenuebellevue">
 
     <application
         android:name="${applicationName}"
         android:allowBackup="false"
         android:icon="@mipmap/ic_launcher"
-        android:label="Flutter Base App">
+        android:label="Avenue Bellevue">
         <activity
             android:name=".MainActivity"
             android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"

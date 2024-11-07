@@ -8,7 +8,9 @@ class SignInBodyModel {
       {required this.email,
       required this.password,
       required this.fcmToken,
-      required this.deviceIdentifier});
+      required this.deviceId,
+      required this.deviceName,
+      });
 
   @JsonKey(name: 'email')
   String email;
@@ -16,8 +18,11 @@ class SignInBodyModel {
   String password;
   @JsonKey(name: 'fcmToken')
   String fcmToken;
-  @JsonKey(name: 'deviceIdentifier')
-  String deviceIdentifier;
+  @JsonKey(name: 'deviceId')
+  String deviceId;
+   @JsonKey(name: 'deviceName')
+  String deviceName;
+
 
   factory SignInBodyModel.fromJson(Map<String, dynamic> json) =>
       _$SignInBodyModelFromJson(json);

@@ -1,7 +1,7 @@
 import 'dart:convert';
 
 import 'package:flutter/material.dart';
-import 'package:flutter_base_project/helper/constant/strings_resource.dart';
+import 'package:avenueBellevue/helper/constant/strings_resource.dart';
 import 'package:intl/intl.dart';
 
 extension StringExtensions on String {

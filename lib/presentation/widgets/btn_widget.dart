@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_base_project/helper/constant/dimensions_resource.dart';
-import 'package:flutter_base_project/presentation/widgets/text_view_widget.dart';
+import 'package:avenueBellevue/helper/constant/dimensions_resource.dart';
+import 'package:avenueBellevue/presentation/widgets/text_view_widget.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:flutter_svg/svg.dart';
 

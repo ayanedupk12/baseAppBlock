@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_base_project/helper/constant/colors_resource.dart';
-import 'package:flutter_base_project/helper/constant/dimensions_resource.dart';
+import 'package:avenueBellevue/helper/constant/colors_resource.dart';
+import 'package:avenueBellevue/helper/constant/dimensions_resource.dart';
 
 import '../../helper/constant/strings_resource.dart';
 import '../widgets/app_bar_widget.dart';

@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_base_project/businessLogic/cubit/navigationBarCubit/navigation_bar_cubit.dart';
-import 'package:flutter_base_project/helper/enum/nav_bar_items.dart';
-import 'package:flutter_base_project/presentation/screens/homeScreen/page_one.dart';
-import 'package:flutter_base_project/presentation/screens/homeScreen/page_two.dart';
+import 'package:avenueBellevue/businessLogic/cubit/navigationBarCubit/navigation_bar_cubit.dart';
+import 'package:avenueBellevue/helper/enum/nav_bar_items.dart';
+import 'package:avenueBellevue/presentation/screens/homeScreen/page_one.dart';
+import 'package:avenueBellevue/presentation/screens/homeScreen/page_two.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 class MyHomePage extends StatefulWidget {
@@ -17,7 +17,9 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Flutter base project"),
+        title: const Text("Avenue Bellevue", style: TextStyle(color: Colors.white),),
+        centerTitle: true,
+        backgroundColor: Colors.blue,
       ),
       bottomNavigationBar: BlocBuilder<NavigationBarCubit, NavigationBarState>(
           builder: (context, state) {

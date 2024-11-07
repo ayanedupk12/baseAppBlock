@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_base_project/businessLogic/cubit/counterCubit/counter_cubit.dart';
-import 'package:flutter_base_project/presentation/widgets/text_view_widget.dart';
+import 'package:avenueBellevue/businessLogic/cubit/counterCubit/counter_cubit.dart';
+import 'package:avenueBellevue/presentation/widgets/text_view_widget.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 import '../../../helper/flavors/flavor_config.dart';

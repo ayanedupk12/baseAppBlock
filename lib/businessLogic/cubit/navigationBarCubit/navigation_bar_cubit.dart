@@ -1,6 +1,6 @@
 import 'package:bloc/bloc.dart';
 import 'package:equatable/equatable.dart';
-import 'package:flutter_base_project/helper/enum/nav_bar_items.dart';
+import 'package:avenueBellevue/helper/enum/nav_bar_items.dart';
 
 part 'navigation_bar_state.dart';
 

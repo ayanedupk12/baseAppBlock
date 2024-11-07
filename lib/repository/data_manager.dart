@@ -1,7 +1,6 @@
 import 'package:dio/dio.dart';
-import 'package:flutter_base_project/dataProvider/network/network_api_client.dart';
-import 'package:flutter_base_project/repository/data_manager_imp.dart';
-
+import 'package:avenueBellevue/dataProvider/network/network_api_client.dart';
+import 'package:avenueBellevue/repository/data_manager_imp.dart';
 import '../dataProvider/model/requestBody/sign_in_body_model.dart';
 import '../dataProvider/model/response/main_response_model.dart';
 import '../dataProvider/model/response/response_model.dart';

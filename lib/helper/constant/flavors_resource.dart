@@ -12,9 +12,9 @@ class FlavorsResource {
   static const ACCEPTANCE_API_KEY = "0ca64a59-0d94-4fdb-80be-e33f985c8758";
   static const DEVELOPMENT_API_KEY = "43359168-d3e9-4653-acbf-b883fcd53cd4";
 
-  static const STAGING_PACKAGE_NAME = "com.techswivel.flutterbaseapp.staging";
+  static const STAGING_PACKAGE_NAME = "com.techswivel.avenueBellevue.staging";
   static const ACCEPTANCE_PACKAGE_NAME =
-      "com.techswivel.flutterbaseapp.acceptance";
+      "com.techswivel.avenueBellevue.acceptance";
   static const DEVELOPMENT_PACKAGE_NAME =
-      "com.techswivel.flutterbaseapp.development";
+      "com.techswivel.avenueBellevue.development";
 }

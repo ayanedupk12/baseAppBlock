@@ -1,10 +1,10 @@
 import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_base_project/businessLogic/cubit/counterCubit/counter_cubit.dart';
-import 'package:flutter_base_project/businessLogic/cubit/navigationBarCubit/navigation_bar_cubit.dart';
-import 'package:flutter_base_project/dataProvider/network/mock_api_client.dart';
-import 'package:flutter_base_project/helper/constant/constants_resource.dart';
-import 'package:flutter_base_project/presentation/router/routes.dart';
+import 'package:avenueBellevue/businessLogic/cubit/counterCubit/counter_cubit.dart';
+import 'package:avenueBellevue/businessLogic/cubit/navigationBarCubit/navigation_bar_cubit.dart';
+import 'package:avenueBellevue/dataProvider/network/mock_api_client.dart';
+import 'package:avenueBellevue/helper/constant/constants_resource.dart';
+import 'package:avenueBellevue/presentation/router/routes.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:package_info_plus/package_info_plus.dart';
 

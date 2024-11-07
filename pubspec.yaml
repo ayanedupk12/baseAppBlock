@@ -1,5 +1,5 @@
-name: flutter_base_project
-description: A new Flutter project.
+name: avenueBellevue
+description: A Food Delivering Flutter App.
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 
 version: 1.0.0+1
@@ -38,12 +38,15 @@ dependencies:
   google_fonts:
   flutter_screenutil: ^5.6.1
   upgrader: ^7.1.0
+  firebase_crashlytics: ^3.4.3
+  firebase_core: ^2.15.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^2.0.1
   flutter_launcher_icons: ^0.11.0
+  rename: ^3.0.1
   json_serializable:
   retrofit_generator: ^4.2.0
   build_runner:

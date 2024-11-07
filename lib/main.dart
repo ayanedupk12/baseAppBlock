@@ -1,29 +1,29 @@
 import 'dart:io';
-
+import 'package:avenueBellevue/businessLogic/app_bloc_observer.dart';
+import 'package:avenueBellevue/helper/constant/dimensions_resource.dart';
+import 'package:avenueBellevue/helper/constant/flavors_resource.dart';
+import 'package:avenueBellevue/helper/util/svg_utils.dart';
+import 'package:avenueBellevue/helper/util/utils.dart';
+import 'package:avenueBellevue/presentation/router/app_router.dart';
+import 'package:avenueBellevue/presentation/router/routes.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:flutter_base_project/businessLogic/app_bloc_observer.dart';
-import 'package:flutter_base_project/helper/constant/dimensions_resource.dart';
-import 'package:flutter_base_project/helper/constant/flavors_resource.dart';
-import 'package:flutter_base_project/helper/util/svg_utils.dart';
-import 'package:flutter_base_project/helper/util/utils.dart';
-import 'package:flutter_base_project/presentation/router/app_router.dart';
-import 'package:flutter_base_project/presentation/router/routes.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_native_splash/flutter_native_splash.dart';
 import 'package:package_info_plus/package_info_plus.dart';
 import 'package:upgrader/upgrader.dart';
-
 import 'helper/constant/constants_resource.dart';
 import 'helper/flavors/main_acceptance.dart';
 import 'helper/flavors/main_dev.dart';
 import 'helper/flavors/main_production.dart';
 import 'helper/flavors/main_staging.dart';
 import 'helper/theme/app_theme.dart';
+import 'package:firebase_core/firebase_core.dart';
 
 void main() async {
   WidgetsBinding widgetsBinding = WidgetsFlutterBinding.ensureInitialized();
   FlutterNativeSplash.preserve(widgetsBinding: widgetsBinding);
+  await Firebase.initializeApp();
   PackageInfo packageInfo = await PackageInfo.fromPlatform();
   String packageName = packageInfo.packageName;
   Utils.console("Package Name => $packageName");
@@ -93,4 +93,5 @@ class _MyAppState extends State<MyApp> {
     widget.appRouter.dispose();
     super.dispose();
   }
+
 }

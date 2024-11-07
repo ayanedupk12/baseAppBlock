@@ -1,4 +1,4 @@
-import 'package:flutter_base_project/repository/data_manager.dart';
+import 'package:avenueBellevue/repository/data_manager.dart';
 import 'package:hive/hive.dart';
 
 import '../../businessLogic/api_request_status.dart';

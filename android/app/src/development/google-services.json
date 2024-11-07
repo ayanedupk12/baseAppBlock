@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "303397913958",
+    "project_id": "avenue-development-778e3",
+    "storage_bucket": "avenue-development-778e3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:303397913958:android:96ffc53682cb505789b4a7",
+        "android_client_info": {
+          "package_name": "com.techswivel.avenuebellevue.development"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZuBKmHbm39SZqorue97oz38YNb2whfqQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

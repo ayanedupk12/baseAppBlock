@@ -11,7 +11,8 @@ SignInBodyModel _$SignInBodyModelFromJson(Map<String, dynamic> json) =>
       email: json['email'] as String,
       password: json['password'] as String,
       fcmToken: json['fcmToken'] as String,
-      deviceIdentifier: json['deviceIdentifier'] as String,
+      deviceId: json['deviceId'] as String,
+      deviceName: json['deviceName'] as String,
     );
 
 Map<String, dynamic> _$SignInBodyModelToJson(SignInBodyModel instance) =>
@@ -19,5 +20,6 @@ Map<String, dynamic> _$SignInBodyModelToJson(SignInBodyModel instance) =>
       'email': instance.email,
       'password': instance.password,
       'fcmToken': instance.fcmToken,
-      'deviceIdentifier': instance.deviceIdentifier,
+      'deviceId': instance.deviceId,
+      'deviceName': instance.deviceName,
     };

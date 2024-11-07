@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "245876621069",
+    "project_id": "avenue-production-50f9d",
+    "storage_bucket": "avenue-production-50f9d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:245876621069:android:11271f7d1c3a946caf3a44",
+        "android_client_info": {
+          "package_name": "com.techswivel.avenuebellevue"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5W1EUowMbWsnM3f5pIQUuCYKtEjWEeHA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

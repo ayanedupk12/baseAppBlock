@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_base_project/helper/theme/text_styles.dart';
+import 'package:avenueBellevue/helper/theme/text_styles.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 import '../constant/colors_resource.dart';

@@ -1,4 +1,4 @@
-package com.techswivel.flutterbaseapp
+package com.techswivel.avenuebellevue
 
 import io.flutter.embedding.android.FlutterActivity
 

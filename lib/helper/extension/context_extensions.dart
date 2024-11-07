@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_base_project/helper/constant/colors_resource.dart';
+import 'package:avenueBellevue/helper/constant/colors_resource.dart';
 
 import '../constant/constants_resource.dart';
 

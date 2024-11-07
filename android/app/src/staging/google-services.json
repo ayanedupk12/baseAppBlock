@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "611698169109",
+    "project_id": "avenue-staging-cede0",
+    "storage_bucket": "avenue-staging-cede0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:611698169109:android:46e84f225379491218051c",
+        "android_client_info": {
+          "package_name": "com.techswivel.avenuebellevue.staging"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwxSQerpSyGKN8xDPFoGON4_xYZaFw6r0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

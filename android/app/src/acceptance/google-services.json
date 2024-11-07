@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "79470643271",
+    "project_id": "avenue-acceptance-cac8e",
+    "storage_bucket": "avenue-acceptance-cac8e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:79470643271:android:2f0ba63d7acb9d556dc962",
+        "android_client_info": {
+          "package_name": "com.techswivel.avenuebellevue.acceptance"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjT_2zinIZvIt9BknNbob2SE5oN-Halz8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,5 +1,5 @@
 import 'package:flutter/cupertino.dart';
-import 'package:flutter_base_project/helper/constant/dimensions_resource.dart';
+import 'package:avenueBellevue/helper/constant/dimensions_resource.dart';
 
 class TextViewWidget extends StatelessWidget {
   const TextViewWidget(
